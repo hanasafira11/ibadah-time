@@ -1,18 +1,61 @@
-# React + Vite
+# 🕌 Ibadah Time
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Ibadah Time** adalah aplikasi frontend berbasis web yang dirancang untuk membantu pengguna memantau dan meningkatkan kualitas ibadah harian secara personal dan reflektif. Aplikasi ini menggabungkan fitur jadwal sholat, pelacakan ibadah, catatan refleksi, serta konten islami terpercaya dalam satu pengalaman digital yang modern dan ramah pengguna.
 
-Currently, two official plugins are available:
+Aplikasi ini dikembangkan menggunakan **React + Vite** dengan pendekatan **mobile-first**, sehingga nyaman digunakan di perangkat mobile, tablet, maupun desktop.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🎯 Tujuan Aplikasi
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- Membantu pengguna **melacak pelaksanaan sholat secara personal**
+- Mendorong **konsistensi dan kesadaran ibadah**, bukan sekadar checklist
+- Menyediakan **ruang refleksi pribadi** yang aman dan fleksibel
+- Menyajikan **konten islami harian** yang relevan dan mudah diakses
+- Memberikan pengalaman pengguna yang interaktif dan modern (gamification ringan)
 
-Note: This will impact Vite dev & build performances.
+---
 
-## Expanding the ESLint configuration
+## ✨ Fitur Utama
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🕒 Jadwal Sholat Digital
+- Menampilkan jadwal sholat harian berdasarkan lokasi pengguna
+- Pengingat masuk waktu sholat
+
+### ✅ Personal Prayer Tracker
+- Checklist sholat harian
+
+### 📝 Refleksi & Catatan Pribadi
+- Catatan refleksi harian terkait ibadah
+- Membantu pengguna mengevaluasi dan memahami progres spiritualnya
+
+### 📚 Ensiklopedia Islam Harian
+- Informasi islami singkat yang muncul secara berkala
+- Topik seputar ibadah, adab, dan nilai-nilai Islam
+
+### 🔗 Rekomendasi Konten Islami
+- Kumpulan akun ustadz, komunitas, dan media kajian
+- Tautan ke platform eksternal (YouTube, Instagram, dll)
+
+---
+
+## 🧱 Teknologi yang Digunakan
+
+- **React** (Frontend UI)
+- **Vite** (Build tool)
+- **React Router DOM** (Routing halaman)
+- **Public Prayer Time API** (jadwal sholat)
+- **CSS** (styling responsif)
+
+---
+
+## 📁 Struktur Folder (Ringkas)
+
+```text
+src/
+├── components/      # Komponen reusable (Navbar, Card, Modal, dll)
+├── pages/           # Halaman utama (Home, Tracker, Refleksi, dll)
+├── hooks/           # Custom hooks (prayer tracker, API, dll)
+├── styles/          # Global & component styles
+├── App.jsx
+└── main.jsx
